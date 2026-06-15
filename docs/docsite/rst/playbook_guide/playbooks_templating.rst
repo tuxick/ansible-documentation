@@ -45,6 +45,7 @@ Our hostname.yml:
         ansible.builtin.template:
            src: templates/test.j2
            dest: /tmp/hostname
+           mode: '0644'
 
 Our test.j2:
 
